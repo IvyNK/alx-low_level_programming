@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- *
+ **
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 	{
 		printf("and is 0\n");
 	}
-	if (n < 6, n != 0)
+	if (n < 6 && n != 0)
 	{
 		printf("and is less than 6 and not 0\n");
 	}

@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	int a;
-	int b;
+	int a = 97;
+	int b = 65;
 
 	while (a < 123)
 	{
@@ -19,6 +19,7 @@ int main(void)
 	{
 		putchar(b);
 		b++;
+		printf("\n");
 	}
 return (0);
 }

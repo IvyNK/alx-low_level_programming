@@ -16,7 +16,7 @@ int main(void)
 		a++;
 	}
 	{
-		printf("\n");
+		putchar('\n');
 	}
 	return (0);
 }

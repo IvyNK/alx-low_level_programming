@@ -21,8 +21,7 @@ int main(void)
 	}
 	if (a == 57)
 	{
-		putchar(a);
-		putchar(' ');
+		putchar('a ');
 		a++;
 	}
 	return (0);

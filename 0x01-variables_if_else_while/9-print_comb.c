@@ -12,12 +12,17 @@ int main(void)
 
 	a = 48;
 
-	while (a <= 57)
+	while (a <= 56)
 	{
 		putchar(a);
 		putchar(',');
 		putchar(' ');
 		a++;
+	}
+	if (a == 57)
+	{
+		putchar(a);
+		a++
 	}
 	return (0);
 }

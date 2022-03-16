@@ -22,7 +22,7 @@ int main(void)
 	if (a == 57)
 	{
 		putchar(a);
-		a++
+		a++;
 	}
 	return (0);
 }

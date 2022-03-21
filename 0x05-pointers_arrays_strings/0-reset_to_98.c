@@ -14,7 +14,7 @@ int main(void)
 
 	n = 402;
 	printf("n = %d\n", n);
-	*n = 98;
+	int *n = 98;
 	printf("n = %d\n", n);
 	return (0);
 }
